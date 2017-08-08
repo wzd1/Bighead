@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="countDown" width="250" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="test1">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object width="{500}" height="{240}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object width="{0}" height="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{img2}">
+				<tween:Wait duration="1050"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="950">
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{img1}">
+				<tween:Wait duration="2050"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="950">
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{start}">
+				<tween:Wait duration="3050"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="950">
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="image" source="3@2x_png" anchorOffsetX="125" anchorOffsetY="60" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="img2" width="250" height="120" y="60" source="2@2x_png" rotation="359.51" anchorOffsetX="125" anchorOffsetY="60" scaleY="0" scaleX="0" x="125"/>
+	<e:Image id="img1" width="250" height="120" y="60" source="1@2x_png" anchorOffsetX="125" anchorOffsetY="60" scaleX="0" scaleY="0" horizontalCenter="0"/>
+	<e:Image id="start" width="250" height="120" y="60" source="start@2x_png" anchorOffsetX="125" anchorOffsetY="60" scaleX="0" scaleY="0" horizontalCenter="0"/>
+</e:Skin>

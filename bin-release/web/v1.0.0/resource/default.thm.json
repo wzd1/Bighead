@@ -1,0 +1,45 @@
+{
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    {
+      "path": "resource/skins/GameRole.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"GameRole\" width=\"398\" height=\"398\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" xmlns:tween=\"egret.tween.*\">\r\n    <e:Image id=\"image\" width=\"100%\" height=\"100%\" source=\"biaoqing@2x_png\" anchorOffsetX=\"0\"/>\r\n</e:Skin>"
+    },
+    {
+      "path": "resource/skins/GameRoleHit.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"GameRole\" width=\"398\" height=\"398\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Button label=\"\" width=\"\"> \n        <e:Skin states=\"up,over,down,disabled\"> \n            <e:Image width=\"100%\" height=\"100%\" source=\"biaoqing_jiaqi@2x_png\"/>\n        </e:Skin> \n    </e:Button> \n</e:Skin>"
+    },
+    {
+      "path": "resource/skins/countDown.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"countDown\" width=\"250\" height=\"120\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" xmlns:tween=\"egret.tween.*\">\n\t<w:Declarations>\n\t\t<tween:TweenGroup id=\"test1\">\n\t\t\t<tween:TweenItem target=\"{image}\">\n\t\t\t\t<tween:Set>\n\t\t\t\t\t<tween:props>\n\t\t\t\t\t\t<e:Object width=\"{500}\" height=\"{240}\"/>\n\t\t\t\t\t</tween:props>\n\t\t\t\t</tween:Set>\n\t\t\t\t<tween:To duration=\"1000\">\n\t\t\t\t\t<tween:props>\n\t\t\t\t\t\t<e:Object width=\"{0}\" height=\"{0}\"/>\n\t\t\t\t\t</tween:props>\n\t\t\t\t</tween:To>\n\t\t\t</tween:TweenItem>\n\t\t\t<tween:TweenItem target=\"{img2}\">\n\t\t\t\t<tween:Wait duration=\"1050\"/>\n\t\t\t\t<tween:Set>\n\t\t\t\t\t<tween:props>\n\t\t\t\t\t\t<e:Object scaleX=\"{1}\" scaleY=\"{1}\"/>\n\t\t\t\t\t</tween:props>\n\t\t\t\t</tween:Set>\n\t\t\t\t<tween:To duration=\"950\">\n\t\t\t\t\t<tween:props>\n\t\t\t\t\t\t<e:Object scaleX=\"{0}\" scaleY=\"{0}\"/>\n\t\t\t\t\t</tween:props>\n\t\t\t\t</tween:To>\n\t\t\t</tween:TweenItem>\n\t\t\t<tween:TweenItem target=\"{img1}\">\n\t\t\t\t<tween:Wait duration=\"2050\"/>\n\t\t\t\t<tween:Set>\n\t\t\t\t\t<tween:props>\n\t\t\t\t\t\t<e:Object scaleX=\"{1}\" scaleY=\"{1}\"/>\n\t\t\t\t\t</tween:props>\n\t\t\t\t</tween:Set>\n\t\t\t\t<tween:To duration=\"950\">\n\t\t\t\t\t<tween:props>\n\t\t\t\t\t\t<e:Object scaleX=\"{0}\" scaleY=\"{0}\"/>\n\t\t\t\t\t</tween:props>\n\t\t\t\t</tween:To>\n\t\t\t</tween:TweenItem>\n\t\t\t<tween:TweenItem target=\"{start}\">\n\t\t\t\t<tween:Wait duration=\"3050\"/>\n\t\t\t\t<tween:Set>\n\t\t\t\t\t<tween:props>\n\t\t\t\t\t\t<e:Object scaleX=\"{1}\" scaleY=\"{1}\"/>\n\t\t\t\t\t</tween:props>\n\t\t\t\t</tween:Set>\n\t\t\t\t<tween:To duration=\"950\">\n\t\t\t\t\t<tween:props>\n\t\t\t\t\t\t<e:Object scaleX=\"{0}\" scaleY=\"{0}\"/>\n\t\t\t\t\t</tween:props>\n\t\t\t\t</tween:To>\n\t\t\t</tween:TweenItem>\n\t\t</tween:TweenGroup>\n\t</w:Declarations>\n\t<e:Image id=\"image\" source=\"3@2x_png\" anchorOffsetX=\"125\" anchorOffsetY=\"60\" verticalCenter=\"0\" horizontalCenter=\"0\"/>\n\t<e:Image id=\"img2\" width=\"250\" height=\"120\" y=\"60\" source=\"2@2x_png\" rotation=\"359.51\" anchorOffsetX=\"125\" anchorOffsetY=\"60\" scaleY=\"0\" scaleX=\"0\" x=\"125\"/>\n\t<e:Image id=\"img1\" width=\"250\" height=\"120\" y=\"60\" source=\"1@2x_png\" anchorOffsetX=\"125\" anchorOffsetY=\"60\" scaleX=\"0\" scaleY=\"0\" horizontalCenter=\"0\"/>\n\t<e:Image id=\"start\" width=\"250\" height=\"120\" y=\"60\" source=\"start@2x_png\" anchorOffsetX=\"125\" anchorOffsetY=\"60\" scaleX=\"0\" scaleY=\"0\" horizontalCenter=\"0\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/skins/pauseBtn.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"pauseBtn\" width=\"54\" height=\"77\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Button label=\"Button\" x=\"98\" y=\"61\"/>\n\t<e:Image source=\"zanting@2x_png\" x=\"0\" y=\"0\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/skins/pumpBtnClick.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"pumpBtnClick\" width=\"750\" height=\"159\" xmlns:e=\"http://ns.egret.com/eui\">\r\n    <e:Button label=\"\" width=\"750\"> \r\n        <e:Skin states=\"up,over,down,disabled\"> \r\n            <e:Image width=\"100%\" height=\"100%\" source=\"btn_dianji@2x_png\"/>\r\n        </e:Skin> \r\n    </e:Button> \r\n</e:Skin>"
+    },
+    {
+      "path": "resource/skins/pumpBtnDefault.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"pumpBtnDefault\" width=\"750\" height=\"159\" xmlns:e=\"http://ns.egret.com/eui\">\n    <e:Button label=\"\" width=\"750\"> \n        <e:Skin states=\"up,over,down,disabled\"> \n            <e:Image width=\"100%\" height=\"100%\" source=\"btn_normal@2x_png\"/>\n        </e:Skin> \n    </e:Button> \n</e:Skin>"
+    },
+    {
+      "path": "resource/skins/readyBtnEnd.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"readyBtnEnd\" width=\"269\" height=\"116\" xmlns:e=\"http://ns.egret.com/eui\">\n\t<e:Button label=\"Button\" x=\"98\" y=\"61\"/>\n\t<e:Image source=\"zhunbei_gray@2x_png\" x=\"0\" y=\"0\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/skins/readyBtnStart.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"readyBtnStart\" width=\"269\" height=\"116\" xmlns:e=\"http://ns.egret.com/eui\">\r\n\t<e:Button label=\"Button\" x=\"98\" y=\"61\"/>\r\n\t<e:Image source=\"ready-@2x_png\" x=\"0\" y=\"0\"/>\r\n</e:Skin>"
+    },
+    {
+      "path": "src/bighead/GameContainerSkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"GameContainerSkin\" width=\"750\" height=\"1334\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\r\n\t<e:Image source=\"bg@2x_png\" x=\"0\" y=\"0\"/>\r\n\t<e:Rect id=\"pauseMask\" width=\"0\" height=\"1334\" x=\"0\" y=\"0\" anchorOffsetX=\"0\" anchorOffsetY=\"0\" fillAlpha=\"0.5\" strokeAlpha=\"1\"/>\r\n\t<e:Button id=\"continueBtn\" label=\"\" verticalCenter=\"0\" x=\"250\" alpha=\"1\" visible=\"false\">\r\n\t\t<e:skinName>\r\n\t\t\t<e:Skin states=\"up,down,disabled\">\r\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"jixu@2x_png\"/>\r\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\r\n\t\t\t</e:Skin>\r\n\t\t</e:skinName>\r\n\t</e:Button>\r\n\t<e:Button id=\"homeBtn\" label=\"\" verticalCenter=\"0\" x=\"400\" alpha=\"1\" visible=\"false\">\r\n\t\t<e:skinName>\r\n\t\t\t<e:Skin states=\"up,down,disabled\">\r\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"shouye@2x_png\"/>\r\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\r\n\t\t\t</e:Skin>\r\n\t\t</e:skinName>\r\n\t</e:Button>\r\n\t<e:Button id=\"resetBtn\" label=\"\" x=\"250\" verticalCenter=\"0\" alpha=\"1\" visible=\"false\">\r\n\t\t<e:skinName>\r\n\t\t\t<e:Skin states=\"up,down,disabled\">\r\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"restart@2x_png\"/>\r\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\r\n\t\t\t</e:Skin>\r\n\t\t</e:skinName>\r\n\t</e:Button>\r\n</e:Skin>"
+    },
+    {
+      "path": "src/bighead/GameSceneSkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"GameSceneSkin\" width=\"750\" height=\"1334\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\r\n\t<e:Button id=\"pumpBtn\" label=\"Button\" enabled=\"true\" skinName=\"pumpBtnDefault\" width=\"750\" x=\"-1\" y=\"1176\">\r\n    </e:Button>\r\n\t<e:Button id=\"pauseBtn\" width=\"54\" height=\"77\" x=\"40\" enabled=\"true\" verticalCenter=\"0\" visible=\"false\">\r\n\t\t<e:skinName>\r\n\t\t\t<e:Skin states=\"up,down,disabled\">\r\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"zanting@2x_png\" source.down=\"zanting@2x_png\"/>\r\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\r\n\t\t\t</e:Skin>\r\n\t\t</e:skinName>\r\n\t</e:Button>\r\n    <e:Button id=\"readyBtn\" label=\"\" enabled=\"true\" horizontalCenter=\"3.5\" y=\"868\" width=\"269\" height=\"116\">\r\n\t</e:Button>\r\n\t<e:Button id=\"countDownAnime\" label=\"\" enabled=\"true\" horizontalCenter=\"3.5\" y=\"725\" width=\"269\" height=\"116\">\r\n\t</e:Button>\r\n    <e:Image id=\"gamelose\" source=\"shu@2x_png\" horizontalCenter=\"0\" y=\"783\" alpha=\"1\" visible=\"false\"/>\r\n    <e:Image id=\"gamewin\" source=\"ying@2x_png\" horizontalCenter=\"0\" y=\"783\" alpha=\"1\"  visible=\"false\"/>\r\n</e:Skin>"
+    }
+  ]
+}

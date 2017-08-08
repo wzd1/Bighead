@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSceneSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="pumpBtn" label="Button" enabled="true" skinName="pumpBtnDefault" width="750" x="-1" y="1176">
+    </e:Button>
+	<e:Button id="pauseBtn" width="54" height="77" x="40" enabled="true" verticalCenter="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zanting@2x_png" source.down="zanting@2x_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+    <e:Button id="readyBtn" label="" enabled="true" horizontalCenter="3.5" y="868" width="269" height="116">
+	</e:Button>
+	<e:Button id="countDownAnime" label="" enabled="true" horizontalCenter="3.5" y="725" width="269" height="116">
+	</e:Button>
+    <e:Image id="gamelose" source="shu@2x_png" horizontalCenter="0" y="783" alpha="1" visible="false"/>
+    <e:Image id="gamewin" source="ying@2x_png" horizontalCenter="0" y="783" alpha="1"  visible="false"/>
+</e:Skin>

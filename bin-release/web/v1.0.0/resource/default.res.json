@@ -1,0 +1,120 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,1@2x_png,2@2x_png,3@2x_png,Back_png,bg@2x_png,biaoqing@2x_png,biaoqing_jiaqi@2x_png,btn_dianji@2x_png,btn_normal@2x_png,home@2x_png,jixu@2x_png,ready-@2x_png,restart@2x_png,shouye@2x_png,shu@2x_png,ying@2x_png,zanting@2x_png,start@2x_png,zhunbei_gray@2x_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "1@2x_png",
+			"type": "image",
+			"url": "assets/1@2x.png"
+		},
+		{
+			"name": "2@2x_png",
+			"type": "image",
+			"url": "assets/2@2x.png"
+		},
+		{
+			"name": "3@2x_png",
+			"type": "image",
+			"url": "assets/3@2x.png"
+		},
+		{
+			"name": "Back_png",
+			"type": "image",
+			"url": "assets/Back.png"
+		},
+		{
+			"name": "bg@2x_png",
+			"type": "image",
+			"url": "assets/bg@2x.png"
+		},
+		{
+			"name": "biaoqing@2x_png",
+			"type": "image",
+			"url": "assets/biaoqing@2x.png"
+		},
+		{
+			"name": "biaoqing_jiaqi@2x_png",
+			"type": "image",
+			"url": "assets/biaoqing_jiaqi@2x.png"
+		},
+		{
+			"name": "btn_dianji@2x_png",
+			"type": "image",
+			"url": "assets/btn_dianji@2x.png"
+		},
+		{
+			"name": "btn_normal@2x_png",
+			"type": "image",
+			"url": "assets/btn_normal@2x.png"
+		},
+		{
+			"name": "home@2x_png",
+			"type": "image",
+			"url": "assets/home@2x.png"
+		},
+		{
+			"name": "jixu@2x_png",
+			"type": "image",
+			"url": "assets/jixu@2x.png"
+		},
+		{
+			"name": "ready-@2x_png",
+			"type": "image",
+			"url": "assets/ready-@2x.png"
+		},
+		{
+			"name": "restart@2x_png",
+			"type": "image",
+			"url": "assets/restart@2x.png"
+		},
+		{
+			"name": "shouye@2x_png",
+			"type": "image",
+			"url": "assets/shouye@2x.png"
+		},
+		{
+			"name": "shu@2x_png",
+			"type": "image",
+			"url": "assets/shu@2x.png"
+		},
+		{
+			"name": "ying@2x_png",
+			"type": "image",
+			"url": "assets/ying@2x.png"
+		},
+		{
+			"name": "zanting@2x_png",
+			"type": "image",
+			"url": "assets/zanting@2x.png"
+		},
+		{
+			"name": "start@2x_png",
+			"type": "image",
+			"url": "assets/start@2x.png"
+		},
+		{
+			"name": "zhunbei_gray@2x_png",
+			"type": "image",
+			"url": "assets/zhunbei_gray@2x.png"
+		}
+	]
+}

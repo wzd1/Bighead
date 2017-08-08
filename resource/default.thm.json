@@ -1,0 +1,15 @@
+{
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/skins/GameRole.exml",
+    "resource/skins/GameRoleHit.exml",
+    "resource/skins/countDown.exml",
+    "resource/skins/pauseBtn.exml",
+    "resource/skins/pumpBtnClick.exml",
+    "resource/skins/pumpBtnDefault.exml",
+    "resource/skins/readyBtnEnd.exml",
+    "resource/skins/readyBtnStart.exml",
+    "src/bighead/GameContainerSkin.exml",
+    "src/bighead/GameSceneSkin.exml"
+  ]
+}
